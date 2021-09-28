@@ -1,0 +1,27 @@
+{
+  "name": "quizzy-api",
+  "version": "1.0.0",
+  "description": "API for Quizzy project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhamsalama/quizzy-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhamsalama/quizzy-api/issues"
+  },
+  "homepage": "https://github.com/adhamsalama/quizzy-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
